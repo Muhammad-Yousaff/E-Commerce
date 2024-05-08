@@ -34,6 +34,7 @@ import ShopCategory from './Components/Pages/ShopCategory';
 import Product from './Components/Pages/Product';
 import Cart from './Components/Pages/Cart';
 import LoginSignUp from './Components/Pages/LoginSignUp'; // Ensure this import exists
+import Footer from './Components/Footer/Footer';
 
 const App = () => {
   return (
@@ -48,6 +49,7 @@ const App = () => {
         <Route path="/cart" element={<Cart />} />
         <Route path="/login" element={<LoginSignUp />} />
       </Routes>
+     <Footer/>
     </Router>
   );
 };
