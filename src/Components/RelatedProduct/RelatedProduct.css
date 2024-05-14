@@ -1,0 +1,34 @@
+/* src/components/RelatedProduct/RelatedProduct.css */
+.relatedproduct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    min-height: 90vh;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .relatedproduct h1 {
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  
+  .relatedproduct hr {
+    width: 200px;
+    height: 6px;
+    border: none;
+    border-radius: 10px;
+    background: #252525;
+    align-self: center;
+  }
+  
+  .relatedproduct-item {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
